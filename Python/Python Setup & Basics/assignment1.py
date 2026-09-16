@@ -26,7 +26,7 @@ g= int(input("Enter first number: "))
 h = int(input("Enter second number: "))
 g, h = h, g
 print("After swapping:")
-print("g =", g)
+print("g =", g)[]
 print("h =", h)
 print("----------------------------------")
 print("Find Area of rectangle")
