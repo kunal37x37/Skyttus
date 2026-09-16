@@ -1,0 +1,55 @@
+print("------------------START----------------------")
+print("Take a string input and print its length")
+s=input("Enter a String:")
+print("llength of string",len(s))
+
+print("---------------------------------------------")
+print("Convert a sentence to lowercase")
+sentence = input("Enter a sentence: ")
+print(sentence.lower())
+
+print("---------------------------------------------")
+print("Replace spaces with underscores")
+s = input("Enter a string: ")
+print(s.replace(" ", "_"))
+print("---------------------------------------------")
+print("Extract first and last character")
+s = input("Enter a string: ")
+print("First character:", s[0])
+print("Last character:", s[-1])
+
+print("---------------------------------------------")
+print("Reverse a string using slicing")
+s = input("Enter a string: ")
+print("Reverse:", s[::-1])
+
+print("---------------------------------------------")
+print("Count how many times a letter appears")
+s = input("Enter a string: ")
+letter = input("Enter a letter: ")
+print("Count:", s.count(letter))
+
+print("---------------------------------------------")
+print("Check if a word is present in a sentence")
+sentence = input("Enter a sentence: ")
+word = input("Enter a word: ")
+if word in sentence:
+    print("Word is present")
+else:
+    print("Word is not present")
+print("---------------------------------------------")
+print("Name & age using f-string formatting")
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+print(f"My name is {name} and I am {age} years old.")
+
+print("---------------------------------------------")
+print("Remove extra spaces from start and end")
+s = input("Enter a string: ")
+print(s.strip())
+
+print("---------------------------------------------")
+print("Join list of words with -")
+words = ["Python", "is", "very", "easy"]
+result = "-".join(words)
+print(result)
